@@ -74,14 +74,28 @@ let language = 'English'
 
 // console.log(popCheck)
 
-function describeCountry(country, population, capitalCity) {
-  const string = `${country} has ${population} and its capital is ${capitalCity}.`
-  return string
+// function describeCountry(country, population, capitalCity) {
+//   const string = `${country} has ${population} and its capital is ${capitalCity}.`
+//   return string
+// }
+
+// let America = describeCountry(
+//   'The United States',
+//   'about 328 million',
+//   'Washington, D.C.'
+// )
+// console.log(America)
+
+function percentageofWorld1(population) {
+  return (population / 7900) * 100
 }
 
-let America = describeCountry(
-  'The United States',
-  'about 328 million',
-  'Washington, D.C.'
-)
-console.log(America)
+const USA = percentageofWorld1(328)
+console.log(USA)
+
+const percentage2 = function (population) {
+  return (population / 7900) * 100
+}
+const perce2 = percentage2(328)
+
+console.log(perce2)
