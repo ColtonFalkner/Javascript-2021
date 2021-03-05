@@ -45,24 +45,31 @@ let language = 'English'
 //   console.log('There are no neighbors. What is this an island?')
 // }
 
-switch (language) {
-  case 'Chinese':
-  case 'Mandarin':
-    console.log('Most Number of native Speakers')
-    break
-  case 'Spanish':
-    console.log('Second most spoken language')
-    break
-  case 'English':
-    console.log('third place bababy')
-    break
-  case 'Hindi':
-    console.log('fourth placed language')
-    break
-  case 'Arabic':
-    console.log('Fifth place, but on the rise.')
-    break
+// switch (language) {
+//   case 'Chinese':
+//   case 'Mandarin':
+//     console.log('Most Number of native Speakers')
+//     break
+//   case 'Spanish':
+//     console.log('Second most spoken language')
+//     break
+//   case 'English':
+//     console.log('third place bababy')
+//     break
+//   case 'Hindi':
+//     console.log('fourth placed language')
+//     break
+//   case 'Arabic':
+//     console.log('Fifth place, but on the rise.')
+//     break
 
-  default:
-    console.log('Not bad either!!')
-}
+//   default:
+//     console.log('Not bad either!!')
+// }
+
+const popCheck =
+  population >= 330000000
+    ? "America's population is higher than average"
+    : "America's population is below average."
+
+console.log(popCheck)
