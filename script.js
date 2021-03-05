@@ -67,9 +67,21 @@ let language = 'English'
 //     console.log('Not bad either!!')
 // }
 
-const popCheck =
-  population >= 330000000
-    ? "America's population is higher than average"
-    : "America's population is below average."
+// const popCheck =
+//   population >= 330000000
+//     ? "America's population is higher than average"
+//     : "America's population is below average."
 
-console.log(popCheck)
+// console.log(popCheck)
+
+function describeCountry(country, population, capitalCity) {
+  const string = `${country} has ${population} and its capital is ${capitalCity}.`
+  return string
+}
+
+let America = describeCountry(
+  'The United States',
+  'about 328 million',
+  'Washington, D.C.'
+)
+console.log(America)
