@@ -99,3 +99,7 @@ const percentage2 = function (population) {
 const perce2 = percentage2(328)
 
 console.log(perce2)
+
+const perce3 = (population) => (population / 7900) * 100
+
+console.log(perce3(328))
