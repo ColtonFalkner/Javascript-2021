@@ -86,20 +86,44 @@ let language = 'English'
 // )
 // console.log(America)
 
+// function percentageofWorld1(population) {
+//   return (population / 7900) * 100
+// }
+
+// const USA = percentageofWorld1(328)
+// console.log(USA)
+
+// const percentage2 = function (population) {
+//   return (population / 7900) * 100
+// }
+// const perce2 = percentage2(328)
+
+// console.log(perce2)
+
+// const perce3 = (population) => (population / 7900) * 100
+
+// console.log(perce3(328))
+
+// function describePopulation(country, population) {
+//   const description = percentageofWorld1(328).toFixed(2)
+//   return `${country} has a population of ${population} million people, and is about ${description}% of the population.`
+// }
+
+// console.log(describePopulation('USA', 328))
+
+const populations = ['United States', 'Canada', 'Mexico', 'Japan']
+
+if (populations.length >= 4) {
+  console.log('true')
+} else {
+  console.log('go fuck youself')
+}
+
 function percentageofWorld1(population) {
   return (population / 7900) * 100
 }
 
-const USA = percentageofWorld1(328)
-console.log(USA)
+const percentages = [328, 37, 127, 126]
 
-const percentage2 = function (population) {
-  return (population / 7900) * 100
-}
-const perce2 = percentage2(328)
-
-console.log(perce2)
-
-const perce3 = (population) => (population / 7900) * 100
-
-console.log(perce3(328))
+console.log(percentageofWorld1(percentages[0]))
+console.log(percentageofWorld1(percentages[1]))
