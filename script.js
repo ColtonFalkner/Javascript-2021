@@ -128,17 +128,35 @@ let language = 'English'
 // console.log(percentageofWorld1(percentages[0]))
 // console.log(percentageofWorld1(percentages[1]))
 
-const neighbors = ['canada', 'mexico']
-neighbors.push('utopia')
-console.log(neighbors)
+// const neighbors = ['canada', 'mexico']
+// neighbors.push('utopia')
+// console.log(neighbors)
 
-neighbors.pop()
-console.log(neighbors)
-if (neighbors.includes('Germany')) {
-  console.log('HOW?')
-} else {
-  console.log("Ain't no Germans here")
+// neighbors.pop()
+// console.log(neighbors)
+// if (neighbors.includes('Germany')) {
+//   console.log('HOW?')
+// } else {
+//   console.log("Ain't no Germans here")
+// }
+
+// neighbors[1] = 'Usa'
+// console.log(neighbors)
+
+const myCountry = {
+  country: 'United States',
+  capital: 'Washington, D.C.',
+  language: 'English',
+  population: 328000000,
+  neighbors: ['Mexico', 'Canada'],
 }
 
-neighbors[1] = 'Usa'
-console.log(neighbors)
+console.log(
+  `${myCountry.country} has a population of ${population} people, ${myCountry.neighbors.length} neighboring countries, and its capital is ${myCountry.capital}`
+)
+
+myCountry.population = 330000000
+console.log(myCountry.population)
+
+myCountry[population] = 280000000
+console.log(myCountry[population])
