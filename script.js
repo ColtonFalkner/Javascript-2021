@@ -111,19 +111,34 @@ let language = 'English'
 
 // console.log(describePopulation('USA', 328))
 
-const populations = ['United States', 'Canada', 'Mexico', 'Japan']
+// const populations = ['United States', 'Canada', 'Mexico', 'Japan']
 
-if (populations.length >= 4) {
-  console.log('true')
+// if (populations.length >= 4) {
+//   console.log('true')
+// } else {
+//   console.log('go fuck youself')
+// }
+
+// function percentageofWorld1(population) {
+//   return (population / 7900) * 100
+// }
+
+// const percentages = [328, 37, 127, 126]
+
+// console.log(percentageofWorld1(percentages[0]))
+// console.log(percentageofWorld1(percentages[1]))
+
+const neighbors = ['canada', 'mexico']
+neighbors.push('utopia')
+console.log(neighbors)
+
+neighbors.pop()
+console.log(neighbors)
+if (neighbors.includes('Germany')) {
+  console.log('HOW?')
 } else {
-  console.log('go fuck youself')
+  console.log("Ain't no Germans here")
 }
 
-function percentageofWorld1(population) {
-  return (population / 7900) * 100
-}
-
-const percentages = [328, 37, 127, 126]
-
-console.log(percentageofWorld1(percentages[0]))
-console.log(percentageofWorld1(percentages[1]))
+neighbors[1] = 'Usa'
+console.log(neighbors)
