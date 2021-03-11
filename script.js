@@ -143,20 +143,24 @@ let language = 'English'
 // neighbors[1] = 'Usa'
 // console.log(neighbors)
 
-const myCountry = {
-  country: 'United States',
-  capital: 'Washington, D.C.',
-  language: 'English',
-  population: 328000000,
-  neighbors: ['Mexico', 'Canada'],
+// const myCountry = {
+//   country: 'United States',
+//   capital: 'Washington, D.C.',
+//   language: 'English',
+//   population: 328000000,
+//   neighbors: ['Mexico', 'Canada'],
+// }
+
+// console.log(
+//   `${myCountry.country} has a population of ${population} people, ${myCountry.neighbors.length} neighboring countries, and its capital is ${myCountry.capital}`
+// )
+
+// myCountry.population = 330000000
+// console.log(myCountry.population)
+
+// myCountry[population] = 280000000
+// console.log(myCountry[population])
+
+for (voter = 1; voter <= 50; voter++) {
+  console.log(`Voter number ${voter} is voting.`)
 }
-
-console.log(
-  `${myCountry.country} has a population of ${population} people, ${myCountry.neighbors.length} neighboring countries, and its capital is ${myCountry.capital}`
-)
-
-myCountry.population = 330000000
-console.log(myCountry.population)
-
-myCountry[population] = 280000000
-console.log(myCountry[population])
