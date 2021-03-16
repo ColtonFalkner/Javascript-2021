@@ -161,6 +161,23 @@ let language = 'English'
 // myCountry[population] = 280000000
 // console.log(myCountry[population])
 
-for (voter = 1; voter <= 50; voter++) {
-  console.log(`Voter number ${voter} is voting.`)
-}
+// for (voter = 1; voter <= 50; voter++) {
+//   console.log(`Voter number ${voter} is voting.`)
+// }
+
+// const populations = ['United States', 'Canada', 'Mexico', 'Japan']
+
+// if (populations.length >= 4) {
+//   console.log('true')
+// } else {
+//   console.log('go fuck youself')
+// }
+
+// function percentageofWorld1(population) {
+//   return (population / 7900) * 100
+// }
+
+// const percentages = [328, 37, 127, 126]
+
+// console.log(percentageofWorld1(percentages[0]))
+// console.log(percentageofWorld1(percentages[1]))
